@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "my-render-account",
+  "version": "1.0.0",
+  "description": "Show functionality in my render account",
+  "main": "app.js",
+  "scripts": {
+   "start": "nodemon app.js"  ,
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ester Bloch",
+  "license": "ISC",
+  "dependencies": {
+    "@api/render-api": "file:.api/apis/render-api",
+    "api": "^6.1.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
